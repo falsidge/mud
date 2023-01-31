@@ -6,6 +6,7 @@ import type { StackNavigationProp } from '@react-navigation/stack';
 
 import ActivityIndicatorExample from './Examples/ActivityIndicatorExample';
 import AppbarExample from './Examples/AppbarExample';
+import AppMain from './Examples/AppMain';
 import AvatarExample from './Examples/AvatarExample';
 import BadgeExample from './Examples/BadgeExample';
 import BannerExample from './Examples/BannerExample';
@@ -51,6 +52,7 @@ export const mainExamples: Record<
   string,
   React.ComponentType<any> & { title: string }
 > = {
+  app: AppMain,
   animatedFab: AnimatedFABExample,
   activityIndicator: ActivityIndicatorExample,
   appbar: AppbarExample,
